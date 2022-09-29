@@ -1,0 +1,42 @@
+.introBox{
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    margin: 10% 5%;
+}
+
+.introImg{
+    max-width: 17rem;
+}
+
+.userInputBox{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.inputBox button{
+    height: 3rem;
+    width: 3rem;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 1px #9b9292;
+    font-weight: 600;
+    color: white;
+    background: red;
+}
+
+.inputBox input{
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #6c5e5e;
+    height: 1.5rem;
+}

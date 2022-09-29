@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.input{
+    padding: .5rem;
+    width: 20rem;
+    margin-right: 1rem;
+}
+
+.buttonSearch{
+    padding: .5rem 1rem;
+    border: none;
+    font-weight: 400;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.2rem;
+}
+
+.orange{
+    background-color: orange;
+    color: black;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+
+.orange:hover{
+    background-color: orangered;
+}

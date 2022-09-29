@@ -1,0 +1,63 @@
+.pokemonCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+    border-radius: 2rem 2rem .8rem .8rem;
+    transition: all .150s ease;
+    padding: 0 0.5rem;
+}
+
+.pokemonCard:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.background:hover{
+    height: 135px;
+    width: 100%;
+}
+
+.pokemonCardTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemonCardBottom{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.background{
+    z-index: -1;
+    position: absolute;
+    background-color: black;
+    width: 101%;
+    height: 130px;
+    border-radius: .7rem .7rem 0 0;
+}
+
+.pokemonCard h2{
+    text-transform: capitalize;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.stats-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pokemonPhoto{
+    max-width: 11rem;
+}

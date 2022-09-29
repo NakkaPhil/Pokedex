@@ -1,0 +1,32 @@
+.pokeTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    background: linear-gradient(161deg, #ab1010, #ff0202, #d99a9a);
+    padding: 1rem;
+    color: #fbe2e2;
+}
+
+.pokeTitle img{
+    max-width: 15rem;
+}
+
+.pokemonsBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 10% 5%;
+}
+
+@media(min-width:430px){
+    .pokemonsBox{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:768px){
+    .pokemonsBox{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
