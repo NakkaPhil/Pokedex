@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import PokemonCard from './PokemonCard'
 import { useNavigate } from 'react-router'
+import logoPokedex from '../assets/img/pokedex_logo.png'
 import axios from 'axios'
 
 export default function Pokemons() {
@@ -42,7 +43,7 @@ export default function Pokemons() {
   return (
     <div>
         <div className='pokeTitle'>
-            <img src="/src/assets/img/pokedex_logo.png" alt="" />
+            <img src={logoPokedex} alt="" />
             <div className='searchersBox'>
                 <div className='searchByNameBox'>
                     <input 
